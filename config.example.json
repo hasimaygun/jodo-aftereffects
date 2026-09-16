@@ -1,0 +1,48 @@
+{
+  "anthropic_api_key": "sk-ant-...",
+  "video_analysis": {
+    "model": "claude-3-5-sonnet-20241022",
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "scene_types": ["action", "dialogue", "nature", "transition", "reaction"]
+  },
+  "after_effects": {
+    "path": "C:\\Program Files\\Adobe\\Adobe After Effects 2024\\Support Files\\AfterFX.exe",
+    "timeout": 3600,
+    "auto_save": true,
+    "save_interval": 300
+  },
+  "video_processing": {
+    "sample_rate": 24,
+    "frame_skip": 5,
+    "max_duration": 600
+  },
+  "speed_ramp": {
+    "min_speed": 0.25,
+    "max_speed": 2.0,
+    "default_easing": "easeInOutQuad",
+    "transition_duration": 0.5
+  },
+  "transitions": {
+    "enabled": true,
+    "types": ["crossDissolve", "wipeRight", "zoomOut"],
+    "duration": 0.3
+  },
+  "output": {
+    "format": "mp4",
+    "codec": "h264",
+    "quality": "high",
+    "fps": 30,
+    "bitrate": "25000k",
+    "output_dir": "./renders"
+  },
+  "batch_processing": {
+    "enabled": true,
+    "max_concurrent": 2,
+    "retry_failed": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "./logs/jodo.log"
+  }
+}

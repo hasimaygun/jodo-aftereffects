@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Config & Secrets
+config.json
+.env
+.env.local
+secrets/
+
+# Video & Media (large files)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.aep
+*.aes
+*.aet
+*.prproj
+*.ppj
+
+# Output & Logs
+renders/
+outputs/
+logs/
+*.log
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
